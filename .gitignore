@@ -1,0 +1,8 @@
+node_modules
+lib
+build/*
+build/index.js
+build/index.js.map
+build/index.es.js.map
+build/index.d.ts
+build/src

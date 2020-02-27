@@ -1,0 +1,48 @@
+{
+  "name": "lightweight-globalstate",
+  "version": "1.2.1",
+  "description": "A lightweight global state hook to use with React and Typescript",
+  "main": "build/index.js",
+  "module": "build/index.es.js",
+  "jsnext:main": "build/index.es.js",
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "test": "npm test",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackkranz/lightweight-globalstate.git"
+  },
+  "keywords": [
+    "react",
+    "state",
+    "management",
+    "typescript",
+    "hook",
+    "custom"
+  ],
+  "author": "Jack Kranz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackkranz/lightweight-globalstate/issues"
+  },
+  "homepage": "https://github.com/jackkranz/lightweight-globalstate#readme",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.23",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "rollup": "^1.31.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.2",
+    "rollup-plugin-typescript2": "^0.26.0",
+    "typescript": "^3.8.2"
+  }
+}
