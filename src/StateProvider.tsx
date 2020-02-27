@@ -6,8 +6,8 @@ import { stateReducer } from './Reducer';
 
 export const StateProvider = <T,>(props: PropsWithChildren<{initialState?: T}>) => {
   const state = props.initialState ? props.initialState : {} as T;
-  <GlobalStateContext.Provider value={useReducer(stateReducer<T>(), state)}>
+  return(<GlobalStateContext.Provider value={useReducer(stateReducer<T>(), state)}>
     {props.children}
-  </GlobalStateContext.Provider>
+  </GlobalStateContext.Provider>)
 };
 
