@@ -10,14 +10,18 @@ Lightweight global state management for React + Typescript.
 
 1. Wrap it around your application and optionally pass in a Type for your App state.
 
+1. Optionally pass in an initial state
+
 
 ```typescript
 import React from 'react';
 import { StateProvider } from 'lightweight-globalstate'; // 1. Import
-
+const initialState = {
+  ...whatever
+}
 const App: React.FC = () => {
   return (
-     <StateProvider<T>> // 2. Wrap it up
+     <StateProvider<T> initialState={initialState}> // 2. Wrap it up
         {... your app}
     </StateProvider>
   );

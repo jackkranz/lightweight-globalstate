@@ -1,7 +1,7 @@
 {
   "name": "lightweight-globalstate",
-  "version": "1.3.1",
-  "description": "A lightweight global state hook to use with React and Typescript",
+  "version": "1.3.3",
+  "description": "An lightweight and easy state management hook for using React + Typescript",
   "main": "build/index.js",
   "module": "build/index.es.js",
   "jsnext:main": "build/index.es.js",
